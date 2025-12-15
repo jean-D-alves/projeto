@@ -1,24 +1,13 @@
 {
   "name": "site",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tferrera-png/projeto.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tferrera-png/projeto/issues"
-  },
-  "homepage": "https://github.com/tferrera-png/projeto#readme",
-  "description": "",
   "dependencies": {
-    "express": "^5.2.1",
-    "nodemon": "^3.1.11"
+    "express": "^4.19.2"
   }
 }
