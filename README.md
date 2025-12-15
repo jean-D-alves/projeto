@@ -75,7 +75,7 @@ http://localhost:3000
 app.use(express.static(path.join(__dirname, "public")));
 
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "pages", "index.html"));
+  res.sendFile(path.join(__dirname, "pages", "home.html"));
 });
 ```
 
